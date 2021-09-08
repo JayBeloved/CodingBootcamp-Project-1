@@ -1,0 +1,11 @@
+What We Need:
+    1. Text Editor 
+    2. Web Browser
+
+
+TODOs:
+
+1. Create Project
+    1. Create Folder Structure
+    2. Create Files
+    3. Add Assets (images)
