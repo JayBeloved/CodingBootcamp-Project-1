@@ -16,6 +16,15 @@ body {
     margin-right: 15px;
 }
 
+.mynav-items:hover {
+    font-size: x-large;
+    font-weight: 500;
+    font-style: normal;
+    color: blue !important;
+    border-bottom: 5px !important;
+    
+}
+
 .banner-image {
     position: absolute;
     background-repeat: no-repeat;

@@ -38,13 +38,13 @@
                                 <a class="nav-link mynav-items active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link mynav-items" href="#">About</a>
+                                <a class="nav-link mynav-items" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link mynav-items" href="#">Portfolio</a>
+                                <a class="nav-link mynav-items" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link mynav-items" href="#">Contact</a>
+                                <a class="nav-link mynav-items" href="#contact">Contact</a>
                             </li>
                         </ul>
                 </div>
@@ -76,11 +76,11 @@
                 Perferendis fugit et natus consequuntur?</p>
 
             <!-- Button -->
-            <a href="#" class="btn btn-secondary">Let's Bring That Idea To Life</a>
+            <a href="#" class="btn btn-primary btn-lg">Let's Bring That Idea To Life</a>
         </div> 
     </section>
 
-    <section class="section bg-light">
+    <section id="about" class="section bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -155,14 +155,14 @@
         </div>
     </section>
 
-    <section class="section bg-light">
+    <section id="portfolio" class="section bg-light">
         <div class="container-xxl">
             <h1 class="display-5 text-center mb-5">
             My Portfolio
             </h1>
             <div class="container">
                 <center>
-                    <a href="" class="btn btn-primary mb-2" style="min-width: 25px !important;">See More</a>
+                    <a href="" class="btn btn-primary mb-2 btn-lg">See More</a>
                 </center> 
             </div>  
             <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -207,6 +207,61 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <center><h1 class="text-center mb-3">Contact Me</h1></center>
+                <div class="col-lg-6">
+                    <form action="#">
+                        <div class="row mb-1">
+                            <div class="col">
+                                <label class="form-label">First Name</label>
+                                <input type="text" name="firstName" class="form-control" placeholder="First name" aria-label="First name"
+                                    required>
+                            </div>
+                            <div class="col">
+                                <label class="form-label">Last Name</label>
+                                <input type="text" name="lastName" class="form-control" placeholder="Last name" aria-label="Last name"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col">
+                                <label class="form-label">Email</label>
+                                <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                            </div>
+                            <div class="col">
+                                <label class="form-label">Phone (optional)</label>
+                                <input type="text" name="phone" class="form-control" placeholder="Phone" aria-label="Phone">
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col">
+                                <label class="form-label">Subject</label>
+                                <input type="text" name="subject" class="form-control" placeholder="Subject" aria-label="Subject" required>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col">
+                                <label class="form-label">Message</label>
+                                <textarea type="text" name="message" class="form-control" placeholder="Message" aria-label="Message"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg mt-2">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="images/contact.jpg" alt="" class="img-thumbnail shadow card">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
     </section>
 </body>
 
